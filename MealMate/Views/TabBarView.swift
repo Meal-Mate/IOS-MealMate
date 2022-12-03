@@ -14,7 +14,7 @@ struct TabBarView: View {
     var body: some View {
         TabView(selection: $lastSelectedView) {
             NavigationView {
-            OnboardingView()
+           ExploreView()
                     .onAppear {
                         didLaunchBefore = true
                     }

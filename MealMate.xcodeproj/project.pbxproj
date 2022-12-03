@@ -22,6 +22,15 @@
 		1C9807432931620D002285DB /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9807422931620D002285DB /* RestaurantDetailView.swift */; };
 		1C980745293162BF002285DB /* RestaurantImageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C980744293162BF002285DB /* RestaurantImageSection.swift */; };
 		1C98074729316320002285DB /* RestaurantInformationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98074629316320002285DB /* RestaurantInformationSection.swift */; };
+		1CADC940293BD136002F3DB2 /* ExploreNowTrendingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC93F293BD136002F3DB2 /* ExploreNowTrendingItem.swift */; };
+		1CADC942293BD217002F3DB2 /* ExploreCourseCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC941293BD217002F3DB2 /* ExploreCourseCategoryItem.swift */; };
+		1CADC944293BD251002F3DB2 /* ExploreQuickLinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC943293BD251002F3DB2 /* ExploreQuickLinkItem.swift */; };
+		1CADC949293BD2AF002F3DB2 /* ExploreQuickLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC948293BD2AF002F3DB2 /* ExploreQuickLink.swift */; };
+		1CADC94C293BD315002F3DB2 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC94B293BD315002F3DB2 /* ExploreView.swift */; };
+		1CADC94E293BD337002F3DB2 /* NowTrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC94D293BD337002F3DB2 /* NowTrendingSection.swift */; };
+		1CADC950293BD37D002F3DB2 /* RestaurantCategoriesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC94F293BD37D002F3DB2 /* RestaurantCategoriesSection.swift */; };
+		1CADC952293BD3A2002F3DB2 /* QuickLinksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC951293BD3A2002F3DB2 /* QuickLinksSection.swift */; };
+		1CADC955293BD7E2002F3DB2 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 1CADC954293BD7E2002F3DB2 /* Pages */; };
 		1CE89DC729354DA600167D03 /* InputFieldDatePickerTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE89DC629354DA600167D03 /* InputFieldDatePickerTitle.swift */; };
 		1CE89DC92935525500167D03 /* ImageTextButtonDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE89DC82935525500167D03 /* ImageTextButtonDate.swift */; };
 		4D7628B929297806002D8C57 /* CategoriesFilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7628B829297806002D8C57 /* CategoriesFilterItem.swift */; };
@@ -100,7 +109,6 @@
 		4DB876A4292955D8005A8077 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB876A3292955D8005A8077 /* LaunchScreen.swift */; };
 		4DB876A6292955EE005A8077 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB876A5292955EE005A8077 /* TabBarView.swift */; };
 		4DB876A929295641005A8077 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB876A829295641005A8077 /* OnboardingView.swift */; };
-		4DB876AC2929565B005A8077 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB876AB2929565B005A8077 /* Pages */; };
 		4DB876BF292961F4005A8077 /* CoursePreview.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB876AF292961F3005A8077 /* CoursePreview.xcassets */; };
 		4DB876C0292961F4005A8077 /* Onboarding.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB876B0292961F3005A8077 /* Onboarding.xcassets */; };
 		4DB876C1292961F4005A8077 /* Reviews.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB876B1292961F3005A8077 /* Reviews.xcassets */; };
@@ -154,6 +162,14 @@
 		1C9807422931620D002285DB /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		1C980744293162BF002285DB /* RestaurantImageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageSection.swift; sourceTree = "<group>"; };
 		1C98074629316320002285DB /* RestaurantInformationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInformationSection.swift; sourceTree = "<group>"; };
+		1CADC93F293BD136002F3DB2 /* ExploreNowTrendingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNowTrendingItem.swift; sourceTree = "<group>"; };
+		1CADC941293BD217002F3DB2 /* ExploreCourseCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCourseCategoryItem.swift; sourceTree = "<group>"; };
+		1CADC943293BD251002F3DB2 /* ExploreQuickLinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreQuickLinkItem.swift; sourceTree = "<group>"; };
+		1CADC948293BD2AF002F3DB2 /* ExploreQuickLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreQuickLink.swift; sourceTree = "<group>"; };
+		1CADC94B293BD315002F3DB2 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		1CADC94D293BD337002F3DB2 /* NowTrendingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTrendingSection.swift; sourceTree = "<group>"; };
+		1CADC94F293BD37D002F3DB2 /* RestaurantCategoriesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCategoriesSection.swift; sourceTree = "<group>"; };
+		1CADC951293BD3A2002F3DB2 /* QuickLinksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksSection.swift; sourceTree = "<group>"; };
 		1CE89DC629354DA600167D03 /* InputFieldDatePickerTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldDatePickerTitle.swift; sourceTree = "<group>"; };
 		1CE89DC82935525500167D03 /* ImageTextButtonDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextButtonDate.swift; sourceTree = "<group>"; };
 		4D7628B829297806002D8C57 /* CategoriesFilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterItem.swift; sourceTree = "<group>"; };
@@ -259,7 +275,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB876AC2929565B005A8077 /* Pages in Frameworks */,
+				1CADC955293BD7E2002F3DB2 /* Pages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +321,42 @@
 				1C6EDCE2293434520065FE33 /* PropositionViewedItem.swift */,
 			);
 			path = Propostion;
+			sourceTree = "<group>";
+		};
+		1CADC93E293BD0E0002F3DB2 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				1CADC93F293BD136002F3DB2 /* ExploreNowTrendingItem.swift */,
+				1CADC941293BD217002F3DB2 /* ExploreCourseCategoryItem.swift */,
+				1CADC943293BD251002F3DB2 /* ExploreQuickLinkItem.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		1CADC947293BD298002F3DB2 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				1CADC948293BD2AF002F3DB2 /* ExploreQuickLink.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		1CADC94A293BD2F6002F3DB2 /* Explore View */ = {
+			isa = PBXGroup;
+			children = (
+				1CADC94B293BD315002F3DB2 /* ExploreView.swift */,
+				1CADC94D293BD337002F3DB2 /* NowTrendingSection.swift */,
+				1CADC94F293BD37D002F3DB2 /* RestaurantCategoriesSection.swift */,
+				1CADC951293BD3A2002F3DB2 /* QuickLinksSection.swift */,
+			);
+			path = "Explore View";
+			sourceTree = "<group>";
+		};
+		1CADC953293BD7E2002F3DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1CB7B331292E96B300C117FC /* Restaurant */ = {
@@ -394,6 +446,7 @@
 			children = (
 				4D875031292936C700327BC2 /* MealMate */,
 				4D875030292936C700327BC2 /* Products */,
+				1CADC953293BD7E2002F3DB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -478,6 +531,7 @@
 		4D87505F2929379D00327BC2 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				1CADC93E293BD0E0002F3DB2 /* Explore */,
 				1C6EDCE1293434310065FE33 /* Propostion */,
 				4D7628B429296FCE002D8C57 /* Search */,
 				4DB87694292953FC005A8077 /* Onboading */,
@@ -488,6 +542,7 @@
 		4D875060292937A400327BC2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1CADC947293BD298002F3DB2 /* Explore */,
 				1C6EDCDA29341B120065FE33 /* Proposition */,
 				4D7628CE29297A12002D8C57 /* Search */,
 				4DB8769A292954EC005A8077 /* Onboarding */,
@@ -654,6 +709,7 @@
 		4DABF9BC29298430007B380D /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				1CADC94A293BD2F6002F3DB2 /* Explore View */,
 				4DABF9BD2929843E007B380D /* Course Category View */,
 			);
 			path = Explore;
@@ -737,7 +793,7 @@
 			);
 			name = MealMate;
 			packageProductDependencies = (
-				4DB876AB2929565B005A8077 /* Pages */,
+				1CADC954293BD7E2002F3DB2 /* Pages */,
 			);
 			productName = MealMate;
 			productReference = 4D87502F292936C700327BC2 /* MealMate.app */;
@@ -885,6 +941,7 @@
 				1C51AC3D2934021B00B6C5B4 /* bigInput.swift in Sources */,
 				4D8750B029293EE700327BC2 /* InputFieldToggleTitle.swift in Sources */,
 				4DABF9BF2929845E007B380D /* NavigationBarItems.swift in Sources */,
+				1CADC942293BD217002F3DB2 /* ExploreCourseCategoryItem.swift in Sources */,
 				4DB876A4292955D8005A8077 /* LaunchScreen.swift in Sources */,
 				4DABF9AF2929834B007B380D /* RecentlyViewedSection.swift in Sources */,
 				4DABF9B7292983A6007B380D /* CategoriesSection.swift in Sources */,
@@ -906,6 +963,7 @@
 				4DB876A929295641005A8077 /* OnboardingView.swift in Sources */,
 				4D87508A29293AF300327BC2 /* TertiaryTextOnlyButton.swift in Sources */,
 				4D8750BC29293F9100327BC2 /* IconBackground56px.swift in Sources */,
+				1CADC944293BD251002F3DB2 /* ExploreQuickLinkItem.swift in Sources */,
 				4D87509129293BC000327BC2 /* Colors.swift in Sources */,
 				4D7628BF2929787F002D8C57 /* SearchRecentlyViewedItem.swift in Sources */,
 				4DABF9AD29298315007B380D /* SearchView.swift in Sources */,
@@ -926,6 +984,7 @@
 				1C6EDCDC29341B360065FE33 /* PropositionModel.swift in Sources */,
 				4DABF9BB292983D0007B380D /* RatingSection.swift in Sources */,
 				4D87509B29293D0800327BC2 /* NavigationLinkIcon.swift in Sources */,
+				1CADC952293BD3A2002F3DB2 /* QuickLinksSection.swift in Sources */,
 				4D8750AC29293EA700327BC2 /* InputFieldNormal.swift in Sources */,
 				4D8750C52929403C00327BC2 /* TextIcon.swift in Sources */,
 				4DB8768F2929536F005A8077 /* Review.swift in Sources */,
@@ -939,8 +998,12 @@
 				4D7628DA29297C35002D8C57 /* CourseDurationFilter.swift in Sources */,
 				4D87508F29293BA500327BC2 /* Icons.swift in Sources */,
 				4D8750BA29293F8500327BC2 /* IconBackground48px.swift in Sources */,
+				1CADC950293BD37D002F3DB2 /* RestaurantCategoriesSection.swift in Sources */,
 				4D8750B429293F3000327BC2 /* InputFieldChipsTitle.swift in Sources */,
+				1CADC949293BD2AF002F3DB2 /* ExploreQuickLink.swift in Sources */,
+				1CADC94C293BD315002F3DB2 /* ExploreView.swift in Sources */,
 				1C546E83292EB6DE00CDDA14 /* RestaurantViewModel.swift in Sources */,
+				1CADC940293BD136002F3DB2 /* ExploreNowTrendingItem.swift in Sources */,
 				4D8750A329293DFE00327BC2 /* LinearProgressBar.swift in Sources */,
 				4D7628B929297806002D8C57 /* CategoriesFilterItem.swift in Sources */,
 				1C1689B4292EA0A600D9C995 /* RestaurantView.swift in Sources */,
@@ -953,6 +1016,7 @@
 				4DBB7134292BDD30008AE1F2 /* Constants.swift in Sources */,
 				1C9807432931620D002285DB /* RestaurantDetailView.swift in Sources */,
 				4D875033292936C700327BC2 /* MealMateApp.swift in Sources */,
+				1CADC94E293BD337002F3DB2 /* NowTrendingSection.swift in Sources */,
 				4DB876A6292955EE005A8077 /* TabBarView.swift in Sources */,
 				4D7628D429297BE2002D8C57 /* SearchByCategory.swift in Sources */,
 				4D8750AE29293ECB00327BC2 /* InputFieldTitle.swift in Sources */,
@@ -1300,7 +1364,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4DB876AB2929565B005A8077 /* Pages */ = {
+		1CADC954293BD7E2002F3DB2 /* Pages */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4DB876AA2929565B005A8077 /* XCRemoteSwiftPackageReference "Pages" */;
 			productName = Pages;
