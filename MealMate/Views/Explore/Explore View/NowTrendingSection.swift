@@ -9,50 +9,34 @@ import SwiftUI
 import Pages
 
 struct NowTrendingSection: View {
-    @State private var viewModel = RestaurantViewModel()
+
     @State var index: Int = 0
+    @State private var nowTrendingCourses = exploreNowTrendingCourses
+    @State private var currentCourse = 0
     
     var body: some View {
         VStack(spacing: 20) {
             listSectionHeader
             courses
+
         }
     }
     
     var listSectionHeader: some View {
         VStack(spacing: 15) {
             Divider()
-            ListSectionHeader(title: "Now Trending", doesHaveAButton: true, buttonText: "See All")
+            ListSectionHeader(title: "Now Trending", doesHaveAButton: false)
         }
         .frame(width: ScreenSize.screenWidth-32)
     }
     
-    /* var courses: some View {
-        ModelPages(viewModel.restaurants,currentPage: $currentCourse) {pageIndex,restaurant in
-            List(viewModel.restaurants, id: \.id ) { restaurant in
-                ExploreNowTrendingItem(exploreNowTrending: restaurant)
-            }.onAppear(perform: viewModel.getAllRestrauants)
-            Text("aaaa")
-            Text(viewModel.restaurant.description)
-            //ExploreNowTrendingItem(viewModel: exploreNowTrending[0])
-          // ExploreNowTrendingItem(viewModel: exploreNowTrending[1])
-          //  ExploreNowTrendingItem(viewModel: exploreNowTrending[2])
-        }
-        .frame(width: 450, height: 500 )
-                            
-           
-           
-       }
-     
-    }
-     */
     var courses: some View {
-        Pages(currentPage: $index, hasControl: false) {
-            List(viewModel.restaurants, id: \.id ) { restaurant in
-                ExploreNowTrendingItem(exploreNowTrending: restaurant)
-                
-            }.onAppear(perform: viewModel.getAllRestrauants)
+        Pages(currentPage: $currentCourse, hasControl: false) {
+            ExploreNowTrendingItem(exploreNowTrending: nowTrendingCourses[0])
+            ExploreNowTrendingItem(exploreNowTrending: nowTrendingCourses[1])
+           ExploreNowTrendingItem(exploreNowTrending: nowTrendingCourses[2])
         }
         .frame(minHeight: 340)
     }
+ 
 }

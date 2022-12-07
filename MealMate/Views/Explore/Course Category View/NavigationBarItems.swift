@@ -36,7 +36,7 @@ struct NavigationBarItems: ViewModifier {
             .fullScreenCover(item: $allViews) { selectedView in
                 switch selectedView {
                 case .settings:
-                    OnboardingView()
+                    SettingsView()
                 case .filters:
                     SearchFiltersView()
                 }

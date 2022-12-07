@@ -57,5 +57,6 @@ struct Icons {
     static let people="person.3.fill"
     static let people1="person.line.dotted.person.fill"
     static let chat="message.fill"
+    static let moon="moon.fill"
 }
 

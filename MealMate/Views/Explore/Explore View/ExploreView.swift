@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ExploreView: View {
     static let tag = "Explore"
+    var detailView: RestaurantPostModel
     
     var body: some View {
         ScrollView {
             VStack(spacing: 30) {
                 NowTrendingSection()
-                //CourseCategoriesSection()
                 QuickLinksSection()
             }
         }

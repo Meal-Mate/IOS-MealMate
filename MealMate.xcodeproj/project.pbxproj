@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C041820293E36230053DFD0 /* ExploreNowTrending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04181F293E36230053DFD0 /* ExploreNowTrending.swift */; };
 		1C1689B4292EA0A600D9C995 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1689B3292EA0A600D9C995 /* RestaurantView.swift */; };
 		1C23B0482931528F00FB7888 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C23B0472931528F00FB7888 /* SearchBarView.swift */; };
 		1C51AC3D2934021B00B6C5B4 /* bigInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C51AC3C2934021B00B6C5B4 /* bigInput.swift */; };
@@ -28,11 +29,34 @@
 		1CADC949293BD2AF002F3DB2 /* ExploreQuickLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC948293BD2AF002F3DB2 /* ExploreQuickLink.swift */; };
 		1CADC94C293BD315002F3DB2 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC94B293BD315002F3DB2 /* ExploreView.swift */; };
 		1CADC94E293BD337002F3DB2 /* NowTrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC94D293BD337002F3DB2 /* NowTrendingSection.swift */; };
-		1CADC950293BD37D002F3DB2 /* RestaurantCategoriesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC94F293BD37D002F3DB2 /* RestaurantCategoriesSection.swift */; };
 		1CADC952293BD3A2002F3DB2 /* QuickLinksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADC951293BD3A2002F3DB2 /* QuickLinksSection.swift */; };
 		1CADC955293BD7E2002F3DB2 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 1CADC954293BD7E2002F3DB2 /* Pages */; };
 		1CE89DC729354DA600167D03 /* InputFieldDatePickerTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE89DC629354DA600167D03 /* InputFieldDatePickerTitle.swift */; };
 		1CE89DC92935525500167D03 /* ImageTextButtonDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE89DC82935525500167D03 /* ImageTextButtonDate.swift */; };
+		1CF08040293E616000968FF2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0803F293E616000968FF2 /* SettingsView.swift */; };
+		1CF08042293E618400968FF2 /* GeneralSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08041293E618400968FF2 /* GeneralSection.swift */; };
+		1CF08044293E619F00968FF2 /* PreferencesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08043293E619F00968FF2 /* PreferencesSection.swift */; };
+		1CF08046293E61B900968FF2 /* OtherSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08045293E61B900968FF2 /* OtherSection.swift */; };
+		1CF08048293E61FC00968FF2 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08047293E61FC00968FF2 /* SettingItem.swift */; };
+		1CF0804B293E63DB00968FF2 /* ProfileQuickActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0804A293E63DB00968FF2 /* ProfileQuickActionItem.swift */; };
+		1CF0804E293E641100968FF2 /* ProfileQuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0804D293E641100968FF2 /* ProfileQuickAction.swift */; };
+		1CF08051293E645A00968FF2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08050293E645A00968FF2 /* ProfileView.swift */; };
+		1CF08055293E64C000968FF2 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08054293E64C000968FF2 /* EditProfileView.swift */; };
+		1CF08057293E64D900968FF2 /* ProfileImageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08056293E64D900968FF2 /* ProfileImageSection.swift */; };
+		1CF08059293E64FC00968FF2 /* InputSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08058293E64FC00968FF2 /* InputSection.swift */; };
+		1CF0805B293E653000968FF2 /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0805A293E653000968FF2 /* UserSection.swift */; };
+		1CF0805D293E654A00968FF2 /* ProfileQuickActionsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0805C293E654A00968FF2 /* ProfileQuickActionsSection.swift */; };
+		1CF08060293E698B00968FF2 /* MyAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0805F293E698B00968FF2 /* MyAchievement.swift */; };
+		1CF08063293E69AA00968FF2 /* AchievementKeyInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08062293E69AA00968FF2 /* AchievementKeyInformation.swift */; };
+		1CF08065293E69C100968FF2 /* AchievementLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08064293E69C100968FF2 /* AchievementLeaderboard.swift */; };
+		1CF08068293E69E700968FF2 /* MyAchievementItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08067293E69E700968FF2 /* MyAchievementItem.swift */; };
+		1CF0806A293E69F700968FF2 /* AchievementKeyInformationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08069293E69F700968FF2 /* AchievementKeyInformationItem.swift */; };
+		1CF0806C293E6A1300968FF2 /* AchievementLeaderboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0806B293E6A1300968FF2 /* AchievementLeaderboardItem.swift */; };
+		1CF08070293E6A5100968FF2 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0806F293E6A5100968FF2 /* AchievementView.swift */; };
+		1CF08072293E6A6100968FF2 /* AchievementCardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08071293E6A6100968FF2 /* AchievementCardSection.swift */; };
+		1CF08074293E6A7000968FF2 /* AchievementKeyInformationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08073293E6A7000968FF2 /* AchievementKeyInformationSection.swift */; };
+		1CF08076293E6A8500968FF2 /* AchievementLeaderboardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08075293E6A8500968FF2 /* AchievementLeaderboardSection.swift */; };
+		1CF08078293E6AA100968FF2 /* MyAchievementsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF08077293E6AA100968FF2 /* MyAchievementsSection.swift */; };
 		4D7628B929297806002D8C57 /* CategoriesFilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7628B829297806002D8C57 /* CategoriesFilterItem.swift */; };
 		4D7628BB29297842002D8C57 /* DistancesFilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7628BA29297842002D8C57 /* DistancesFilterItem.swift */; };
 		4D7628BD2929785B002D8C57 /* CourseDurationFilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7628BC2929785B002D8C57 /* CourseDurationFilterItem.swift */; };
@@ -146,6 +170,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C04181F293E36230053DFD0 /* ExploreNowTrending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNowTrending.swift; sourceTree = "<group>"; };
 		1C1689B3292EA0A600D9C995 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		1C23B0472931528F00FB7888 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		1C51AC3C2934021B00B6C5B4 /* bigInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigInput.swift; sourceTree = "<group>"; };
@@ -168,10 +193,33 @@
 		1CADC948293BD2AF002F3DB2 /* ExploreQuickLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreQuickLink.swift; sourceTree = "<group>"; };
 		1CADC94B293BD315002F3DB2 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		1CADC94D293BD337002F3DB2 /* NowTrendingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTrendingSection.swift; sourceTree = "<group>"; };
-		1CADC94F293BD37D002F3DB2 /* RestaurantCategoriesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCategoriesSection.swift; sourceTree = "<group>"; };
 		1CADC951293BD3A2002F3DB2 /* QuickLinksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksSection.swift; sourceTree = "<group>"; };
 		1CE89DC629354DA600167D03 /* InputFieldDatePickerTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldDatePickerTitle.swift; sourceTree = "<group>"; };
 		1CE89DC82935525500167D03 /* ImageTextButtonDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextButtonDate.swift; sourceTree = "<group>"; };
+		1CF0803F293E616000968FF2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1CF08041293E618400968FF2 /* GeneralSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSection.swift; sourceTree = "<group>"; };
+		1CF08043293E619F00968FF2 /* PreferencesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesSection.swift; sourceTree = "<group>"; };
+		1CF08045293E61B900968FF2 /* OtherSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSection.swift; sourceTree = "<group>"; };
+		1CF08047293E61FC00968FF2 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		1CF0804A293E63DB00968FF2 /* ProfileQuickActionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileQuickActionItem.swift; sourceTree = "<group>"; };
+		1CF0804D293E641100968FF2 /* ProfileQuickAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileQuickAction.swift; sourceTree = "<group>"; };
+		1CF08050293E645A00968FF2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1CF08054293E64C000968FF2 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		1CF08056293E64D900968FF2 /* ProfileImageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageSection.swift; sourceTree = "<group>"; };
+		1CF08058293E64FC00968FF2 /* InputSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSection.swift; sourceTree = "<group>"; };
+		1CF0805A293E653000968FF2 /* UserSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSection.swift; sourceTree = "<group>"; };
+		1CF0805C293E654A00968FF2 /* ProfileQuickActionsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileQuickActionsSection.swift; sourceTree = "<group>"; };
+		1CF0805F293E698B00968FF2 /* MyAchievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAchievement.swift; sourceTree = "<group>"; };
+		1CF08062293E69AA00968FF2 /* AchievementKeyInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementKeyInformation.swift; sourceTree = "<group>"; };
+		1CF08064293E69C100968FF2 /* AchievementLeaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementLeaderboard.swift; sourceTree = "<group>"; };
+		1CF08067293E69E700968FF2 /* MyAchievementItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAchievementItem.swift; sourceTree = "<group>"; };
+		1CF08069293E69F700968FF2 /* AchievementKeyInformationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementKeyInformationItem.swift; sourceTree = "<group>"; };
+		1CF0806B293E6A1300968FF2 /* AchievementLeaderboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementLeaderboardItem.swift; sourceTree = "<group>"; };
+		1CF0806F293E6A5100968FF2 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		1CF08071293E6A6100968FF2 /* AchievementCardSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCardSection.swift; sourceTree = "<group>"; };
+		1CF08073293E6A7000968FF2 /* AchievementKeyInformationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementKeyInformationSection.swift; sourceTree = "<group>"; };
+		1CF08075293E6A8500968FF2 /* AchievementLeaderboardSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementLeaderboardSection.swift; sourceTree = "<group>"; };
+		1CF08077293E6AA100968FF2 /* MyAchievementsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAchievementsSection.swift; sourceTree = "<group>"; };
 		4D7628B829297806002D8C57 /* CategoriesFilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterItem.swift; sourceTree = "<group>"; };
 		4D7628BA29297842002D8C57 /* DistancesFilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancesFilterItem.swift; sourceTree = "<group>"; };
 		4D7628BC2929785B002D8C57 /* CourseDurationFilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDurationFilterItem.swift; sourceTree = "<group>"; };
@@ -337,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				1CADC948293BD2AF002F3DB2 /* ExploreQuickLink.swift */,
+				1C04181F293E36230053DFD0 /* ExploreNowTrending.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -346,7 +395,6 @@
 			children = (
 				1CADC94B293BD315002F3DB2 /* ExploreView.swift */,
 				1CADC94D293BD337002F3DB2 /* NowTrendingSection.swift */,
-				1CADC94F293BD37D002F3DB2 /* RestaurantCategoriesSection.swift */,
 				1CADC951293BD3A2002F3DB2 /* QuickLinksSection.swift */,
 			);
 			path = "Explore View";
@@ -364,11 +412,110 @@
 			children = (
 				1C1689B3292EA0A600D9C995 /* RestaurantView.swift */,
 				1C9807422931620D002285DB /* RestaurantDetailView.swift */,
-				1C980744293162BF002285DB /* RestaurantImageSection.swift */,
 				1C98074629316320002285DB /* RestaurantInformationSection.swift */,
+				1C980744293162BF002285DB /* RestaurantImageSection.swift */,
 				1C884B442933CCA000148639 /* UpdateRestaurantView.swift */,
 			);
 			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		1CF0803E293E615700968FF2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0803F293E616000968FF2 /* SettingsView.swift */,
+				1CF08041293E618400968FF2 /* GeneralSection.swift */,
+				1CF08043293E619F00968FF2 /* PreferencesSection.swift */,
+				1CF08045293E61B900968FF2 /* OtherSection.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1CF08049293E636D00968FF2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1CF08066293E69DA00968FF2 /* Achievement */,
+				1CF0804A293E63DB00968FF2 /* ProfileQuickActionItem.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1CF0804C293E640300968FF2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0805E293E696800968FF2 /* Achievement */,
+				1CF0804D293E641100968FF2 /* ProfileQuickAction.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1CF0804F293E644C00968FF2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0806D293E6A3700968FF2 /* Achievements */,
+				1CF08052293E64A300968FF2 /* Edit Proflle */,
+				1CF08050293E645A00968FF2 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1CF08052293E64A300968FF2 /* Edit Proflle */ = {
+			isa = PBXGroup;
+			children = (
+				1CF08053293E64AF00968FF2 /* Edit Profile View */,
+				1CF0805A293E653000968FF2 /* UserSection.swift */,
+				1CF0805C293E654A00968FF2 /* ProfileQuickActionsSection.swift */,
+			);
+			path = "Edit Proflle";
+			sourceTree = "<group>";
+		};
+		1CF08053293E64AF00968FF2 /* Edit Profile View */ = {
+			isa = PBXGroup;
+			children = (
+				1CF08054293E64C000968FF2 /* EditProfileView.swift */,
+				1CF08056293E64D900968FF2 /* ProfileImageSection.swift */,
+				1CF08058293E64FC00968FF2 /* InputSection.swift */,
+			);
+			path = "Edit Profile View";
+			sourceTree = "<group>";
+		};
+		1CF0805E293E696800968FF2 /* Achievement */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0805F293E698B00968FF2 /* MyAchievement.swift */,
+				1CF08062293E69AA00968FF2 /* AchievementKeyInformation.swift */,
+				1CF08064293E69C100968FF2 /* AchievementLeaderboard.swift */,
+			);
+			path = Achievement;
+			sourceTree = "<group>";
+		};
+		1CF08066293E69DA00968FF2 /* Achievement */ = {
+			isa = PBXGroup;
+			children = (
+				1CF08067293E69E700968FF2 /* MyAchievementItem.swift */,
+				1CF08069293E69F700968FF2 /* AchievementKeyInformationItem.swift */,
+				1CF0806B293E6A1300968FF2 /* AchievementLeaderboardItem.swift */,
+			);
+			path = Achievement;
+			sourceTree = "<group>";
+		};
+		1CF0806D293E6A3700968FF2 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				1CF08077293E6AA100968FF2 /* MyAchievementsSection.swift */,
+				1CF0806E293E6A4400968FF2 /* Achievement View */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		1CF0806E293E6A4400968FF2 /* Achievement View */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0806F293E6A5100968FF2 /* AchievementView.swift */,
+				1CF08071293E6A6100968FF2 /* AchievementCardSection.swift */,
+				1CF08073293E6A7000968FF2 /* AchievementKeyInformationSection.swift */,
+				1CF08075293E6A8500968FF2 /* AchievementLeaderboardSection.swift */,
+			);
+			path = "Achievement View";
 			sourceTree = "<group>";
 		};
 		4D7628B429296FCE002D8C57 /* Search */ = {
@@ -531,10 +678,12 @@
 		4D87505F2929379D00327BC2 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				1CF08049293E636D00968FF2 /* Profile */,
 				1CADC93E293BD0E0002F3DB2 /* Explore */,
 				1C6EDCE1293434310065FE33 /* Propostion */,
 				4D7628B429296FCE002D8C57 /* Search */,
 				4DB87694292953FC005A8077 /* Onboading */,
+				1CF08047293E61FC00968FF2 /* SettingItem.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -542,6 +691,7 @@
 		4D875060292937A400327BC2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1CF0804C293E640300968FF2 /* Profile */,
 				1CADC947293BD298002F3DB2 /* Explore */,
 				1C6EDCDA29341B120065FE33 /* Proposition */,
 				4D7628CE29297A12002D8C57 /* Search */,
@@ -555,6 +705,8 @@
 		4D875061292937B400327BC2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1CF0804F293E644C00968FF2 /* Profile */,
+				1CF0803E293E615700968FF2 /* Settings */,
 				1C6EDCD7293419800065FE33 /* Proposition */,
 				1CB7B331292E96B300C117FC /* Restaurant */,
 				4DABF9BC29298430007B380D /* Explore */,
@@ -935,19 +1087,28 @@
 				4D8750A929293E7300327BC2 /* SecondaryButton.swift in Sources */,
 				4D8750B829293F7600327BC2 /* IconBackground32px.swift in Sources */,
 				1C6EDCD9293419AD0065FE33 /* AddProposition.swift in Sources */,
+				1CF08059293E64FC00968FF2 /* InputSection.swift in Sources */,
+				1CF0804B293E63DB00968FF2 /* ProfileQuickActionItem.swift in Sources */,
 				4DB876A02929556E005A8077 /* Setting.swift in Sources */,
 				4D87509F29293D5100327BC2 /* Instructor.swift in Sources */,
 				4DB8769C2929551F005A8077 /* OnboardingTextContent.swift in Sources */,
 				1C51AC3D2934021B00B6C5B4 /* bigInput.swift in Sources */,
 				4D8750B029293EE700327BC2 /* InputFieldToggleTitle.swift in Sources */,
 				4DABF9BF2929845E007B380D /* NavigationBarItems.swift in Sources */,
+				1CF08074293E6A7000968FF2 /* AchievementKeyInformationSection.swift in Sources */,
+				1CF0805D293E654A00968FF2 /* ProfileQuickActionsSection.swift in Sources */,
+				1CF08072293E6A6100968FF2 /* AchievementCardSection.swift in Sources */,
 				1CADC942293BD217002F3DB2 /* ExploreCourseCategoryItem.swift in Sources */,
 				4DB876A4292955D8005A8077 /* LaunchScreen.swift in Sources */,
+				1CF08057293E64D900968FF2 /* ProfileImageSection.swift in Sources */,
 				4DABF9AF2929834B007B380D /* RecentlyViewedSection.swift in Sources */,
 				4DABF9B7292983A6007B380D /* CategoriesSection.swift in Sources */,
+				1CF08044293E619F00968FF2 /* PreferencesSection.swift in Sources */,
 				4DB876932929539E005A8077 /* RatingProgress.swift in Sources */,
 				4D8750D12929416000327BC2 /* CoursePreviewInstructor.swift in Sources */,
+				1CF08042293E618400968FF2 /* GeneralSection.swift in Sources */,
 				4D87509D29293D3700327BC2 /* ListSectionHeader.swift in Sources */,
+				1CF08065293E69C100968FF2 /* AchievementLeaderboard.swift in Sources */,
 				4D8750C92929407400327BC2 /* IconTextSelection.swift in Sources */,
 				4D7628D229297BB8002D8C57 /* SearchRecentlyViewed.swift in Sources */,
 				4DABF9B529298393007B380D /* SearchFiltersView.swift in Sources */,
@@ -955,7 +1116,9 @@
 				4D7628BB29297842002D8C57 /* DistancesFilterItem.swift in Sources */,
 				4D7628C42929791F002D8C57 /* ImageTextIcon.swift in Sources */,
 				1C6EDCE3293434520065FE33 /* PropositionViewedItem.swift in Sources */,
+				1CF08060293E698B00968FF2 /* MyAchievement.swift in Sources */,
 				4D7628CA29297997002D8C57 /* LargeImageTextButton.swift in Sources */,
+				1CF08063293E69AA00968FF2 /* AchievementKeyInformation.swift in Sources */,
 				4D8750B229293EFC00327BC2 /* InputFieldSelection.swift in Sources */,
 				4D8750A529293E1500327BC2 /* SwiftUIView.swift in Sources */,
 				4D87509929293C9100327BC2 /* TertiaryIconTextRightButton.swift in Sources */,
@@ -968,8 +1131,10 @@
 				4D7628BF2929787F002D8C57 /* SearchRecentlyViewedItem.swift in Sources */,
 				4DABF9AD29298315007B380D /* SearchView.swift in Sources */,
 				1C884B452933CCA000148639 /* UpdateRestaurantView.swift in Sources */,
+				1CF08078293E6AA100968FF2 /* MyAchievementsSection.swift in Sources */,
 				4D8750CB2929409A00327BC2 /* IconTextToggle.swift in Sources */,
 				4D8750C12929401000327BC2 /* IconTextInformation.swift in Sources */,
+				1CF0805B293E653000968FF2 /* UserSection.swift in Sources */,
 				4D8750BE29293F9E00327BC2 /* IconBackground40px.swift in Sources */,
 				4D87508D29293B8200327BC2 /* Images.swift in Sources */,
 				4DB876A2292955A6005A8077 /* BackgroundGradients.swift in Sources */,
@@ -979,14 +1144,19 @@
 				4D875035292936C700327BC2 /* ContentView.swift in Sources */,
 				4D7628C62929793B002D8C57 /* ImageTextButton.swift in Sources */,
 				4D8750C72929405F00327BC2 /* IconTextIcon.swift in Sources */,
+				1CF08068293E69E700968FF2 /* MyAchievementItem.swift in Sources */,
 				4D8750D52929419500327BC2 /* Course.swift in Sources */,
 				4DB8769629295420005A8077 /* OnboardingTextContentItem.swift in Sources */,
 				1C6EDCDC29341B360065FE33 /* PropositionModel.swift in Sources */,
 				4DABF9BB292983D0007B380D /* RatingSection.swift in Sources */,
+				1CF0806A293E69F700968FF2 /* AchievementKeyInformationItem.swift in Sources */,
 				4D87509B29293D0800327BC2 /* NavigationLinkIcon.swift in Sources */,
+				1CF08048293E61FC00968FF2 /* SettingItem.swift in Sources */,
+				1CF08076293E6A8500968FF2 /* AchievementLeaderboardSection.swift in Sources */,
 				1CADC952293BD3A2002F3DB2 /* QuickLinksSection.swift in Sources */,
 				4D8750AC29293EA700327BC2 /* InputFieldNormal.swift in Sources */,
 				4D8750C52929403C00327BC2 /* TextIcon.swift in Sources */,
+				1CF0804E293E641100968FF2 /* ProfileQuickAction.swift in Sources */,
 				4DB8768F2929536F005A8077 /* Review.swift in Sources */,
 				4D7628C829297969002D8C57 /* ImageTextSubtitleIcon.swift in Sources */,
 				4D87509329293BEF00327BC2 /* ScreenSize.swift in Sources */,
@@ -994,24 +1164,28 @@
 				1C98074729316320002285DB /* RestaurantInformationSection.swift in Sources */,
 				1C6EDCE029342FEE0065FE33 /* PropositionsViewedSection.swift in Sources */,
 				4D7628BD2929785B002D8C57 /* CourseDurationFilterItem.swift in Sources */,
+				1CF08040293E616000968FF2 /* SettingsView.swift in Sources */,
 				4D87509729293C5B00327BC2 /* HapticFeedback.swift in Sources */,
 				4D7628DA29297C35002D8C57 /* CourseDurationFilter.swift in Sources */,
+				1CF08046293E61B900968FF2 /* OtherSection.swift in Sources */,
 				4D87508F29293BA500327BC2 /* Icons.swift in Sources */,
 				4D8750BA29293F8500327BC2 /* IconBackground48px.swift in Sources */,
-				1CADC950293BD37D002F3DB2 /* RestaurantCategoriesSection.swift in Sources */,
 				4D8750B429293F3000327BC2 /* InputFieldChipsTitle.swift in Sources */,
 				1CADC949293BD2AF002F3DB2 /* ExploreQuickLink.swift in Sources */,
 				1CADC94C293BD315002F3DB2 /* ExploreView.swift in Sources */,
+				1CF08070293E6A5100968FF2 /* AchievementView.swift in Sources */,
 				1C546E83292EB6DE00CDDA14 /* RestaurantViewModel.swift in Sources */,
 				1CADC940293BD136002F3DB2 /* ExploreNowTrendingItem.swift in Sources */,
 				4D8750A329293DFE00327BC2 /* LinearProgressBar.swift in Sources */,
 				4D7628B929297806002D8C57 /* CategoriesFilterItem.swift in Sources */,
 				1C1689B4292EA0A600D9C995 /* RestaurantView.swift in Sources */,
+				1CF08051293E645A00968FF2 /* ProfileView.swift in Sources */,
 				4DB87699292954AD005A8077 /* OnboardingFeatureItem.swift in Sources */,
 				1C980745293162BF002285DB /* RestaurantImageSection.swift in Sources */,
 				1C23B0482931528F00FB7888 /* SearchBarView.swift in Sources */,
 				1CE89DC729354DA600167D03 /* InputFieldDatePickerTitle.swift in Sources */,
 				4D8750A129293DE300327BC2 /* ListDivider.swift in Sources */,
+				1CF08055293E64C000968FF2 /* EditProfileView.swift in Sources */,
 				4DB8769E29295540005A8077 /* OnboardingFeature.swift in Sources */,
 				4DBB7134292BDD30008AE1F2 /* Constants.swift in Sources */,
 				1C9807432931620D002285DB /* RestaurantDetailView.swift in Sources */,
@@ -1023,8 +1197,10 @@
 				4D87509529293C2500327BC2 /* ListPadding.swift in Sources */,
 				1CE89DC92935525500167D03 /* ImageTextButtonDate.swift in Sources */,
 				4D8750D32929418200327BC2 /* CoursePreviewProgress.swift in Sources */,
+				1C041820293E36230053DFD0 /* ExploreNowTrending.swift in Sources */,
 				4D7628C22929790B002D8C57 /* SmallImageTextIcon.swift in Sources */,
 				4D8750CD292940B000327BC2 /* SmallIconText.swift in Sources */,
+				1CF0806C293E6A1300968FF2 /* AchievementLeaderboardItem.swift in Sources */,
 				4DB8768B292952E8005A8077 /* TextOnly.swift in Sources */,
 				1C6EDCE7293437F60065FE33 /* PropostionListHeader.swift in Sources */,
 				1C6EDCDE293428A90065FE33 /* PropositionViewModel.swift in Sources */,
@@ -1180,9 +1356,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MealMate/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = G96V29LG5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MealMate/Info.plist;
@@ -1196,8 +1375,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mates.MealMate;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.mates.mealmate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = iOSDevelopment2223;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -1212,9 +1393,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MealMate/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = G96V29LG5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MealMate/Info.plist;
@@ -1228,8 +1412,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mates.MealMate;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.mates.mealmate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = iOSDevelopment2223;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

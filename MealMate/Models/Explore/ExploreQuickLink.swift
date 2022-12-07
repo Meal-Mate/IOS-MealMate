@@ -19,9 +19,5 @@ var exploreQuickLinks = [
     
     ExploreQuickLink(
         title: "Report a Problem"
-    ),
-    
-    ExploreQuickLink(
-        title: "Explore All the Latest Courses"
     )
 ]

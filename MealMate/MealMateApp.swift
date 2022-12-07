@@ -14,4 +14,7 @@ struct MealMateApp: App {
             LaunchScreen().environmentObject(RestaurantViewModel())
         }
     }
+    
+    
+ 
 }

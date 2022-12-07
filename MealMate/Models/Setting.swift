@@ -40,6 +40,13 @@ var settings = [
         bodyText: "Select your preferred language.",
         doesHaveAToggle: false
     ),
+    Setting(
+        icon: Icons.moon,
+        iconBackground: Colors.indigo,
+        title: "Dark Mode",
+        bodyText: "Select your preferred mode",
+        doesHaveAToggle: true
+    ),
     
     Setting(
         icon: Icons.bolt,

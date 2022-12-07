@@ -14,11 +14,12 @@ struct IconTextToggle: View {
     let bodyText: String
     
     @State private var isOn = false
+    @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some View {
         Toggle(
             isOn:
-                $isOn,
+                $isDarkMode,
             label: {
                 toggleLabel
             }

@@ -14,7 +14,6 @@ struct RestaurantInformationSection: View {
     @State  var email: String
     @State  var description: String
     
-    let item: RestaurantPostModel
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {

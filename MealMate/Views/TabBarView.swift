@@ -14,7 +14,7 @@ struct TabBarView: View {
     var body: some View {
         TabView(selection: $lastSelectedView) {
             NavigationView {
-           ExploreView()
+           ExploreView(detailView: RestaurantPostModel(id: "String", name: "String", address: "", email: "", phone: "", description: ""))
                     .onAppear {
                         didLaunchBefore = true
                     }
@@ -33,7 +33,7 @@ struct TabBarView: View {
             .tag(SearchView.tag)
             
             NavigationView {
-                RestaurantView(name: "", address: "", phone: "", email: "",description: "")
+                SearchView()
             }
             .ignoresSafeArea()
             .tabItem {
@@ -42,7 +42,7 @@ struct TabBarView: View {
             .tag(SearchView.tag)
             
             NavigationView {
-                AddProposition(owner: "", address: "", mates: "", date: "")
+                SearchView()
             }
             .tabItem {
                 Label("Chat", systemImage: Icons.chat)
@@ -50,7 +50,7 @@ struct TabBarView: View {
             .tag(SearchView.tag)
             
             NavigationView {
-                SearchView()
+                ProfileView()
             }
             .tabItem {
                 Label("Profile", systemImage: Icons.user)

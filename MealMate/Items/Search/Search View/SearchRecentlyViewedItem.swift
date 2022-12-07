@@ -20,7 +20,9 @@ struct SearchRecentlyViewedItem: View {
             address:
                 recentlyViewed.address,
             buttonText: "",
-            description: recentlyViewed.description
+            description: recentlyViewed.description,
+            email: recentlyViewed.email,
+            phone: recentlyViewed.phone
                     
         )
         .frame(width: ScreenSize.screenWidth-32)

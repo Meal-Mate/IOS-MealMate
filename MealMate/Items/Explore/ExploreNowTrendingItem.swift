@@ -8,26 +8,24 @@
 import SwiftUI
 
 struct ExploreNowTrendingItem: View {
-    var exploreNowTrending: RestaurantPostModel
+    var exploreNowTrending: ExploreNowTrending
     
     var body: some View {
         CoursePreviewInstructor(
             image:
-                Images.searchRecentlyViewed1,
+                exploreNowTrending.image,
             subtitle:
-               "",
+                exploreNowTrending.subtitle,
             title:
-                exploreNowTrending.name,
+                exploreNowTrending.title,
             bodyText:
-                exploreNowTrending.description,
+                exploreNowTrending.bodyText,
             instructorImage:
-                Images.searchRecentlyViewed1,
+                exploreNowTrending.instructorImage,
             name:
-                exploreNowTrending.address,
+                exploreNowTrending.instructorName,
             BIO:
-                exploreNowTrending.phone,
-            buttonText:
-                "Start",
+                exploreNowTrending.instructorBIO,
             instructorBackground:
                 Colors.primaryBackgroundDarkModeSupport,
             background:
@@ -36,5 +34,4 @@ struct ExploreNowTrendingItem: View {
         .frame(width: ScreenSize.screenWidth-32)
     }
 }
-
 

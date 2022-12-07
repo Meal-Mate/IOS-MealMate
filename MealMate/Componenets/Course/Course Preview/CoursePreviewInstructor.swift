@@ -15,7 +15,6 @@ struct CoursePreviewInstructor: View {
     let instructorImage: String
     let name: String
     let BIO: String
-    let buttonText: String
     let instructorBackground: Color
     let background: Color
     
@@ -29,7 +28,7 @@ struct CoursePreviewInstructor: View {
                 .overlay(
                     NavigationLink(
                         destination:
-                            self,
+                            SearchView(),
                         isActive:
                             $showCoursePreview
                     ) {
@@ -38,7 +37,7 @@ struct CoursePreviewInstructor: View {
                 )
             textContent
             
-            Instructor(image: instructorImage, name: name, BIO: BIO, doesHaveAButton: true, buttonText: buttonText, background: instructorBackground)
+            Instructor(image: instructorImage, name: name, BIO: BIO, background: instructorBackground)
         }
         .padding(12)
         .background(background)
@@ -53,7 +52,7 @@ struct CoursePreviewInstructor: View {
             Text(subtitle)
                 .font(Font.caption.bold())
                 .textCase(.uppercase)
-                .foregroundColor(Colors.blue)
+                .foregroundColor(Colors.orange)
             
             Text(title)
                 .font(Font.headline.bold())

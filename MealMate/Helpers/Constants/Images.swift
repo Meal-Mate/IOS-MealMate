@@ -13,12 +13,12 @@ struct Images {
     static let onboarding1 = "Onboarding-1"
     static let onboarding2 = "Onboarding-2"
     
-    static let exploreCourse1 = "Explore-Course-1"
-    static let exploreCourse2 = "Explore-Course-2"
-    static let exploreCourse3 = "Explore-Course-3"
-    static let exploreInstructor1 = "Explore-Instructor-1"
-    static let exploreInstructor2 = "Explore-Instructor-2"
-    static let exploreInstructor3 = "Explore-Instructor-3"
+    static let ExploreRestaurant2 = "Explore-Restaurant-2"
+    static let ExploreRestaurant3 = "Explore-Restaurant-3"
+    static let ExploreRestaurant1 = "Explore-Restaurant-1"
+    static let Exploreflag1 = "Explore-flag-1"
+    static let Exploreflag2 = "Explore-flag-2"
+    static let Exploreflag3 = "Explore-flag-3"
     
     static let courseCategoryRecommended1 = "CourseCategory-Recommended-1"
     static let courseCategoryRecommended2 = "CourseCategory-Recommended-2"

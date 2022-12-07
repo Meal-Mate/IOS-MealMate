@@ -15,9 +15,9 @@ struct ExploreQuickLinkItem: View {
             title:
                 exploreQuickLink.title,
             textColor:
-                Colors.blue,
+                Colors.orange,
             fontSize:
-                Font.body.weight(.regular)
+                Font.body.weight(.bold)
         )
         .frame(width: ScreenSize.screenWidth-32)
     }

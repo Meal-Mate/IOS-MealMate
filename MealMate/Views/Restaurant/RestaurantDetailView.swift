@@ -16,7 +16,7 @@ struct RestaurantDetailView: View {
                 RestaurantImageSection()
                 
                 VStack(spacing: 30) {
-                    RestaurantInformationSection(name: detailView.name, address: detailView.address, phone: detailView.phone, email: detailView.email, description: detailView.description, item: RestaurantPostModel(id: "", name: detailView.name, address: detailView.address, email: detailView.email, phone: detailView.phone, description: detailView.description))
+                    RestaurantInformationSection(name: detailView.name, address: detailView.address, phone: detailView.phone, email: detailView.email, description: detailView.description)
                    
                 }
                 

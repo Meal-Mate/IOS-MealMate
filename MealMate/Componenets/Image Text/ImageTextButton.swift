@@ -15,6 +15,9 @@ struct ImageTextButton: View {
     let address: String
     let buttonText: String
     let description: String
+    let email: String
+    let phone: String
+    
 
     
     var body: some View  {
@@ -42,7 +45,7 @@ struct ImageTextButton: View {
     var button: some View {
         NavigationLink(
             destination:
-                RestaurantDetailView(detailView: RestaurantPostModel(id: "", name: name, address: address, email: "", phone: "", description: ""))
+                RestaurantDetailView(detailView: RestaurantPostModel(id: "", name: name, address: address, email: email, phone: phone, description: description))
         ) {
             Text(buttonText)
         }

@@ -14,10 +14,10 @@
             filePath = "MealMate/Componenets/Image Text/ImageTextButton.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "ImageTextButton"
-            landmarkType = "14">
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "button"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
