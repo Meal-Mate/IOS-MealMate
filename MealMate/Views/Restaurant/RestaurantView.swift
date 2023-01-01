@@ -72,7 +72,7 @@ struct RestaurantView: View {
             if name != "" && email != "" && phone != "" && address != "" && description != "" {
                 let parameters: [String: Any] = ["name": name, "address": address, "email": email, "phone": phone,"description":description]
                 viewModel.addRestrauants(parameters: parameters)
-               
+               print(parameters)
                 
             } else {
                 

@@ -12,7 +12,7 @@ class PropositionViewModel: ObservableObject {
     @Published var propostions = [PropositionPostModel]()
     @Published var proposition = [PropositionPostModel]()
     
-    let prefix = "https://mealmateapiserver.azurewebsites.net"
+    let prefix = "https://mealmate.azurewebsites.net"
     func getAllPropostions(){
         guard let url = URL(string: "\(prefix)/proposition/") else {
             print("not found")

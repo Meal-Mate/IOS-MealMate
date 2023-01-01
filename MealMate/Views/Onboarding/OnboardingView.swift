@@ -14,6 +14,7 @@ struct OnboardingView: View {
     @State private var currentView = 0
     @State private var showHome = false
     
+    
     var body: some View {
         ZStack {
             NavigationView {
@@ -78,7 +79,7 @@ struct OnboardingView: View {
     var skipButton: some View {
         NavigationLink(
             destination:
-                self
+                LoginView(showHome: $showHome)
         ) {
             Text("Skip")
         }
@@ -88,7 +89,7 @@ struct OnboardingView: View {
     var getStartedButton: some View {
         NavigationLink(
             destination:
-                self
+                SignUpView(showHome: $showHome,email: "",password: "",username: "",Sexe: "",phone: "")
         ) {
             Text("Get Started")
         }

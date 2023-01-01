@@ -10,7 +10,7 @@ import SwiftUI
 struct TabBarView: View {
     @AppStorage("didLaunchBefore") var didLaunchBefore: Bool?
     @AppStorage("lastSelectedView") var lastSelectedView = ""
-    
+    @State private var showHome = false
     var body: some View {
         TabView(selection: $lastSelectedView) {
             NavigationView {
@@ -42,7 +42,7 @@ struct TabBarView: View {
             .tag(SearchView.tag)
             
             NavigationView {
-                SearchView()
+                LoginView(showHome: $showHome)
             }
             .tabItem {
                 Label("Chat", systemImage: Icons.chat)
@@ -50,7 +50,7 @@ struct TabBarView: View {
             .tag(SearchView.tag)
             
             NavigationView {
-                ProfileView()
+                ProfileView(showHome: $showHome).environmentObject(LoginViewModel())
             }
             .tabItem {
                 Label("Profile", systemImage: Icons.user)

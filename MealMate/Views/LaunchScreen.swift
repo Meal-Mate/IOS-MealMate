@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LaunchScreen: View {
     @State private var showNextView = false
-    
+    @State private var showHome = false
     var body: some View {
         ZStack {
             Color.orange.edgesIgnoringSafeArea(.vertical)
@@ -17,7 +17,7 @@ struct LaunchScreen: View {
    
             
             if showNextView {
-                ContentView()
+                ContentView(showHome: $showHome)
                 
             }
         }

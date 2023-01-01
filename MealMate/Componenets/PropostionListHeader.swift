@@ -30,7 +30,7 @@ struct PropostionListHeader: View {
     var button: some View {
         NavigationLink(
             destination:
-                AddProposition(owner: "", address: "", mates: "", date: "")
+                MapProposition()
         ) {
             Text(buttonText ?? "")
         }

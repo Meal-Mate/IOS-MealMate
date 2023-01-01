@@ -93,5 +93,7 @@ struct Images {
     static let certificateCertificate = "Certificate-Certificate"
     
     static let launch = "Launch"
+    
+    static let loginimage = "logologin"
 }
 

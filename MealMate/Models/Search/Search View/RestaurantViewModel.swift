@@ -12,7 +12,7 @@ class RestaurantViewModel: ObservableObject{
     @Published var restaurants = [RestaurantPostModel]()
     @Published var restaurant = [RestaurantPostModel]()
     
-    let prefix = "https://mealmateapiserver.azurewebsites.net"
+    let prefix = "https://mealmate.azurewebsites.net"
     func getAllRestrauants(){
         guard let url = URL(string: "\(prefix)/restaurant/") else {
             print("not found")
@@ -80,7 +80,7 @@ class RestaurantViewModel: ObservableObject{
                     print ("no data")
                 }
             } catch let JsonError {
-                
+                debugPrint(JsonError )
                 //  print("fetch json error :", JsonError.localizedDescription)
                 print(String(describing: JsonError))
                 

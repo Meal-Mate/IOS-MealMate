@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
-
+let defaults = UserDefaults.standard
+let username = defaults.value(forKey: "username") as? String
 struct UserSection: View {
+    
     var body: some View {
         Section(header: sectionHeader) {
             NavigationLink(
@@ -29,7 +31,7 @@ struct UserSection: View {
     
     var textContent: some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text("Hassen Mabrouk")
+            Text(username!)
                 .font(Font.subheadline.bold())
             
             Text("Just trying new food everywhere")

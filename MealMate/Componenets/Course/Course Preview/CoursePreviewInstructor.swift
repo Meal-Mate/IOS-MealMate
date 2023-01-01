@@ -25,6 +25,7 @@ struct CoursePreviewInstructor: View {
             Image(image)
                 .resizable()
                 .frame(width: ScreenSize.screenWidth-56)
+                
                 .overlay(
                     NavigationLink(
                         destination:
@@ -35,6 +36,7 @@ struct CoursePreviewInstructor: View {
                         EmptyView()
                     }
                 )
+                .cornerRadius(10)
             textContent
             
             Instructor(image: instructorImage, name: name, BIO: BIO, background: instructorBackground)

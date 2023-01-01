@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ProfileView: View {
     static let tag = "Profile"
-    
+    @EnvironmentObject private var loginVM: LoginViewModel
+    @Binding var showHome: Bool
     @State private var showCertificateDetails = false
     
     var body: some View {
@@ -27,10 +28,15 @@ struct ProfileView: View {
         HStack(spacing: 0) {
             Spacer()
             Button("Log Out") {
-                //MARK: TODO here
+                loginVM.logout()
+                if !loginVM.isAuthenticated {
+                    print("aaa")
+                    print(showHome)
+                }
             }
             .buttonStyle(TertiaryTextOnlyButton(buttonFont: Font.headline.weight(.semibold)))
             Spacer()
+            
         }
     }
 }

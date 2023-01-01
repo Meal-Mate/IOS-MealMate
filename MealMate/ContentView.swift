@@ -6,20 +6,20 @@
 //
 
 import SwiftUI
+import GoogleMaps
 
 struct ContentView: View {
     @AppStorage("didLaunchBefore") var didLaunchBefore: Bool?
-    
+    @Binding var showHome: Bool
+
     var body: some View {
         Group {
-            if didLaunchBefore ?? true {
-                
-                //RestaurantView()
-                TabBarView()
-            } else {
+            if didLaunchBefore ?? false {
                 OnboardingView()
+            } else {
+                LoginView(showHome: $showHome )
             }
         }
     }
 }
-	
+

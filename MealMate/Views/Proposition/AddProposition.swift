@@ -11,10 +11,10 @@ struct AddProposition: View {
     @ObservedObject var viewModel = PropositionViewModel()
     @Environment (\.presentationMode) var present
     
-    @State  var owner: String
-    @State  var address: String
-    @State  var mates: String
-    @State  var date: String
+    @State var owner: String
+    @State var address: String
+    @State var mates: String
+    @State var date: String
     
     @State private var selectedWorkAvailability = 0
     @State private var workAvailabilityItems = ["Full-Time"]

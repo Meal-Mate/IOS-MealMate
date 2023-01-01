@@ -16,8 +16,56 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
             endingLineNumber = "44"
-            landmarkName = "button"
+            landmarkName = "ImageTextButton"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "045D3EAF-9511-4FC0-90E6-BB7B34FEEDF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealMate/Views/Sign Up/SignUpView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "045D3EAF-9511-4FC0-90E6-BB7B34FEEDF4 - 974a52b8e6c7bed0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Form&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of MealMate.SignUpView.emailSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.passwordSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.usernameSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.sexeSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.phoneSection : some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in MealMate.SignUpView.body.getter : some"
+                  moduleName = "MealMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassen/Desktop/frontEnd-MealMate/MealMate/Views/Sign%20Up/SignUpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "045D3EAF-9511-4FC0-90E6-BB7B34FEEDF4 - 35082e774564e5fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of MealMate.SignUpView.RegisterButton : some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Form&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of MealMate.SignUpView.emailSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.passwordSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.usernameSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.sexeSection : some&gt;&gt;.0, &lt;&lt;opaque return type of MealMate.SignUpView.phoneSection : some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in MealMate.SignUpView.body.getter : some"
+                  moduleName = "MealMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassen/Desktop/frontEnd-MealMate/MealMate/Views/Sign%20Up/SignUpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
