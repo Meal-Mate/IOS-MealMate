@@ -1,13 +1,5 @@
 # MealMate-iOS-Andriod
 
-
-Description :<br/>
-     • Application pour le consommateur : gestion des programmes <br/>
-     • Application pour le restaurant : gestions des repas et les demandes du consommateur <br/>
-     • Mobile application for DELIVRER : Consult orders for delivery <br/>
-     • Dashboard web : Un administrateur possédant un dashboard pour la gestion des acteurs. <br/>
-
-    
 Technologies used : <br/>
     - Front-end :<br/>
          • Mobile : iOS/Kotlin <br/>
