@@ -9,7 +9,7 @@ Description :<br/>
     
 Technologies used : <br/>
     - Front-end :<br/>
-         • Mobile : iOS <br/>
+         • Mobile : iOS/Kotlin <br/>
     - Back-end : Node JS/ Express <br/>
     - Database : MongoDB <br/>
     
