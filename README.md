@@ -1,4 +1,5 @@
-# MealMate-iOS-
+# MealMate-iOS-Andriod
+
 
 Description :<br/>
      • Application pour le consommateur : gestion des programmes <br/>
